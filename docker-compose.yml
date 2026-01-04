@@ -1,0 +1,8 @@
+services:
+  python:
+    build: .
+    container_name: python-l
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
